@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Research domain of Smart Coffee Manufacturing: End-to-End Quality Control from Bean to Pack" />
+  <title>Research Domain | Smart Coffee Manufacturing</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER / NAVIGATION
+  ========================== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Smart Coffee Manufacturing Home">
+        <span class="brand-mark">SC</span>
+        <span class="brand-text">
+          <strong>Smart Coffee</strong>
+          <small>Manufacturing</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+
+        <div class="nav-dropdown">
+          <a class="active" href="domain.html">Domain <span class="arrow">▾</span></a>
+          <div class="dropdown-menu">
+            <a href="#literature-survey">Literature Survey</a>
+            <a href="#research-gap">Research Gap</a>
+            <a href="#research-problem">Research Problem</a>
+            <a href="#research-objectives">Research Objectives</a>
+            <a href="#methodology">Methodology</a>
+            <a href="#technologies">Technologies Used</a>
+          </div>
+        </div>
+
+        <a href="milestones.html">Milestones</a>
+        <a href="documents.html">Documents</a>
+        <a href="presentations.html">Presentations</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         DOMAIN HERO
+    ========================== -->
+    <section class="domain-hero">
+      <div class="container">
+        <p class="eyebrow">Research Domain</p>
+        <h1>Research behind the Smart Coffee Manufacturing System</h1>
+        <p>
+          This section presents the literature background, research gap, research problem,
+          objectives, methodology and technologies used across the four research components.
+        </p>
+
+        <div class="domain-jump-nav" aria-label="Domain page sections">
+          <a href="#literature-survey">Literature Survey</a>
+          <a href="#research-gap">Research Gap</a>
+          <a href="#research-problem">Research Problem</a>
+          <a href="#research-objectives">Objectives</a>
+          <a href="#methodology">Methodology</a>
+          <a href="#technologies">Technologies</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================
+         1. LITERATURE SURVEY
+    ========================== -->
+    <section class="section section-light domain-section" id="literature-survey">
+      <div class="container">
+
+        <div class="domain-section-intro">
+          <span class="domain-index">01</span>
+          <div>
+            <p class="section-label">Literature Survey</p>
+            <h2 class="section-title">Existing research across coffee quality inspection and forecasting</h2>
+            <p class="section-description">
+              The literature review covers computer vision, sensor-based monitoring,
+              package-integrity inspection, sales forecasting, weather information and
+              explainable machine learning. These areas provide the scientific and technical
+              foundation for the four research components.
+            </p>
+          </div>
+        </div>
+
+        <div class="literature-grid">
+
+          <article class="domain-card">
+            <span class="card-kicker">Component 01</span>
+            <h3>Raw Coffee Bean Quality Assessment</h3>
+            <p>
+              Previous work demonstrates the value of visual characteristics such as
+              colour, shape and visible defects for raw-bean assessment, while sensor
+              measurements can provide additional sample-level information that is not
+              available from images alone.
+            </p>
+            <p>
+              The proposed component therefore builds on computer vision and sensor-based
+              assessment by treating visual and non-visual evidence as complementary inputs
+              to a traceable pre-roast quality decision.
+            </p>
+            <div class="topic-tags">
+              <span>Bean defects</span>
+              <span>Computer vision</span>
+              <span>Sensor evidence</span>
+              <span>Quality scoring</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <span class="card-kicker">Component 02</span>
+            <h3>Coffee Powder Quality Monitoring</h3>
+            <p>
+              Research on coffee powder quality includes moisture measurement, colour
+              evaluation and environmental monitoring. These approaches show that moisture,
+              temperature, humidity and colour can provide useful quality-related information.
+            </p>
+            <p>
+              The proposed component focuses on integrating selected low-cost measurements
+              into a pre-packaging monitoring workflow with understandable batch decisions,
+              rather than replacing laboratory reference methods.
+            </p>
+            <div class="topic-tags">
+              <span>Moisture</span>
+              <span>RGB colour</span>
+              <span>Temperature</span>
+              <span>Humidity</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <span class="card-kicker">Component 03</span>
+            <h3>Packaging Quality &amp; Leak Detection</h3>
+            <p>
+              Packaging research includes heat-seal integrity studies, machine-vision defect
+              inspection and physical leak-testing methods. Visual methods can identify
+              observable sealing abnormalities, while physical tests provide separate
+              information about package integrity.
+            </p>
+            <p>
+              This distinction motivates a complementary approach in which visible seal
+              defects and mechanical package responses are evaluated through different
+              inspection paths before an overall quality decision is made.
+            </p>
+            <div class="topic-tags">
+              <span>Seal integrity</span>
+              <span>YOLO detection</span>
+              <span>Load response</span>
+              <span>Physical testing</span>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <span class="card-kicker">Component 04</span>
+            <h3>Weather-Based Sales &amp; Quality Forecasting</h3>
+            <p>
+              Forecasting literature shows the importance of historical sales, seasonal
+              patterns and weather-related variables when studying future demand and
+              production conditions. Machine learning can model nonlinear relationships
+              among these factors.
+            </p>
+            <p>
+              Explainable AI is also important because operational users need to understand
+              which factors influence a forecast, rather than receiving only a numerical
+              prediction.
+            </p>
+            <div class="topic-tags">
+              <span>Sales forecasting</span>
+              <span>Weather data</span>
+              <span>Random Forest</span>
+              <span>SHAP</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================
+         2. RESEARCH GAP
+    ========================== -->
+    <section class="section domain-section" id="research-gap">
+      <div class="container">
+
+        <div class="domain-section-intro">
+          <span class="domain-index">02</span>
+          <div>
+            <p class="section-label">Research Gap</p>
+            <h2 class="section-title">Bridging isolated quality checks into an integrated manufacturing workflow</h2>
+          </div>
+        </div>
+
+        <div class="gap-callout">
+          <p>
+            Existing studies and tools often address specific quality parameters or individual
+            stages of coffee manufacturing. The central opportunity addressed by this research
+            is to connect complementary forms of evidence and decision support across raw
+            beans, powder, packaging and production forecasting in one coordinated smart
+            manufacturing environment.
+          </p>
+        </div>
+
+        <div class="gap-grid">
+
+          <article class="gap-card">
+            <span>01</span>
+            <h3>Raw Bean Gap</h3>
+            <p>
+              Visual inspection and sensor measurements are often treated separately.
+              The project investigates how bean-level physical evidence, sensor observations,
+              severity-aware scoring and explainable recommendations can be combined for
+              batch-level pre-roast assessment.
+            </p>
+          </article>
+
+          <article class="gap-card">
+            <span>02</span>
+            <h3>Powder Monitoring Gap</h3>
+            <p>
+              Existing approaches commonly focus on individual measurements. The proposed
+              work integrates moisture-related readings, temperature, humidity and supporting
+              RGB information with PASS, WARN and HOLD decisions, corrective guidance and
+              batch history.
+            </p>
+          </article>
+
+          <article class="gap-card">
+            <span>03</span>
+            <h3>Packaging Gap</h3>
+            <p>
+              Visual defect detection cannot by itself confirm physical package integrity.
+              The research evaluates a practical combination of region-focused YOLO seal
+              inspection and Arduino-based mechanical load-response testing.
+            </p>
+          </article>
+
+          <article class="gap-card">
+            <span>04</span>
+            <h3>Forecasting Gap</h3>
+            <p>
+              Sales forecasting, weather factors, quality prediction and explainability are
+              frequently handled separately. The proposed component integrates historical
+              sales, recent sales, weather data, machine learning, SHAP and decision support
+              in one forecasting application.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================
+         3. RESEARCH PROBLEM
+    ========================== -->
+    <section class="section section-dark domain-section" id="research-problem">
+      <div class="container">
+
+        <div class="domain-section-intro dark-intro">
+          <span class="domain-index">03</span>
+          <div>
+            <p class="section-label">Research Problem</p>
+            <h2 class="section-title">Coffee quality decisions are fragmented across the manufacturing process.</h2>
+          </div>
+        </div>
+
+        <div class="problem-layout">
+          <div class="problem-main">
+            <p>
+              Coffee manufacturing involves several quality-sensitive stages. When inspection
+              relies heavily on manual judgement, isolated sensor readings, image-only
+              inspection or separate forecasting methods, it becomes difficult to maintain
+              consistent quality decisions, traceability and timely production planning.
+            </p>
+            <p>
+              The research therefore investigates how AI, sensor-based monitoring, physical
+              testing, rule-based decision support and machine learning forecasting can be
+              brought together to support a more automated and data-driven workflow from
+              raw bean inspection to packaging and future planning.
+            </p>
+          </div>
+
+          <div class="problem-questions">
+            <div>
+              <span>Raw Beans</span>
+              <p>How can visual and sensor evidence be combined for consistent pre-roast batch assessment?</p>
+            </div>
+            <div>
+              <span>Powder</span>
+              <p>How can sensor readings be converted into clear packing-readiness decisions and corrective guidance?</p>
+            </div>
+            <div>
+              <span>Packaging</span>
+              <p>How can visual seal inspection and mechanical load-response testing provide complementary evidence?</p>
+            </div>
+            <div>
+              <span>Forecasting</span>
+              <p>How can historical sales and weather information support interpretable sales and quality predictions?</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         4. RESEARCH OBJECTIVES
+    ========================== -->
+    <section class="section section-light domain-section" id="research-objectives">
+      <div class="container">
+
+        <div class="domain-section-intro">
+          <span class="domain-index">04</span>
+          <div>
+            <p class="section-label">Research Objectives</p>
+            <h2 class="section-title">A shared objective supported by four specialized research components</h2>
+          </div>
+        </div>
+
+        <div class="objective-main">
+          <span>Main Objective</span>
+          <p>
+            To develop an integrated smart coffee manufacturing system that combines
+            artificial intelligence, sensor technologies, decision support and predictive
+            analytics to support quality control and production planning from raw beans
+            through packaging.
+          </p>
+        </div>
+
+        <div class="objective-grid">
+
+          <article>
+            <span class="objective-number">01</span>
+            <h3>Raw Bean Assessment</h3>
+            <p>
+              Develop a pre-roast quality assessment workflow that combines sensor
+              measurements, sample weight and multi-stage computer vision to identify
+              physical bean conditions, generate quality scores and provide explainable
+              batch-level decisions.
+            </p>
+          </article>
+
+          <article>
+            <span class="objective-number">02</span>
+            <h3>Powder Monitoring</h3>
+            <p>
+              Develop an Arduino-based monitoring system that collects moisture-related,
+              RGB, temperature and humidity measurements; classifies production conditions
+              as PASS, WARN or HOLD; and provides corrective and preventive guidance.
+            </p>
+          </article>
+
+          <article>
+            <span class="objective-number">03</span>
+            <h3>Packaging Inspection</h3>
+            <p>
+              Develop a two-stage YOLO visual inspection pipeline and a mechanical
+              pressure-testing prototype, then integrate their outputs to support an overall
+              coffee packaging quality decision.
+            </p>
+          </article>
+
+          <article>
+            <span class="objective-number">04</span>
+            <h3>Forecasting &amp; Planning</h3>
+            <p>
+              Develop Random Forest models for sales and quality prediction using historical
+              sales, previous-month sales, weather and seasonal features, while supporting
+              twelve-month forecasting and SHAP-based explanation.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================
+         5. METHODOLOGY
+    ========================== -->
+    <section class="section domain-section" id="methodology">
+      <div class="container">
+
+        <div class="domain-section-intro">
+          <span class="domain-index">05</span>
+          <div>
+            <p class="section-label">Methodology</p>
+            <h2 class="section-title">Four research workflows integrated within one smart manufacturing application</h2>
+            <p class="section-description">
+              Each component uses its own data-acquisition and analysis method, while the
+              software environment provides a shared platform for monitoring, records,
+              reporting and decision support.
+            </p>
+          </div>
+        </div>
+
+        <div class="method-overview">
+          <div><span>1</span><strong>Acquire</strong><small>Images, sensors, sales and weather data</small></div>
+          <b>→</b>
+          <div><span>2</span><strong>Analyse</strong><small>AI, rules, physical tests and ML models</small></div>
+          <b>→</b>
+          <div><span>3</span><strong>Decide</strong><small>Quality grades, readiness and forecasts</small></div>
+          <b>→</b>
+          <div><span>4</span><strong>Support</strong><small>Recommendations, history and planning</small></div>
+        </div>
+
+        <div class="methodology-stack">
+
+          <article class="method-card">
+            <div class="method-head">
+              <span>01</span>
+              <div>
+                <p>Raw Coffee Bean Quality Assessment</p>
+                <h3>Sensor evidence + multi-stage computer vision</h3>
+              </div>
+            </div>
+            <div class="method-flow">
+              <span>Raw Bean Sample</span><i>→</i>
+              <span>Sensors &amp; Weight</span><i>→</i>
+              <span>Bean Detection</span><i>→</i>
+              <span>Colour Classification</span><i>→</i>
+              <span>Shape Classification</span><i>→</i>
+              <span>Physical Categories</span><i>→</i>
+              <span>Quality Scoring</span><i>→</i>
+              <span>Final Grade &amp; Guidance</span>
+            </div>
+          </article>
+
+          <article class="method-card">
+            <div class="method-head">
+              <span>02</span>
+              <div>
+                <p>Coffee Powder Quality Monitoring</p>
+                <h3>Real-time sensing + rule-based decision support</h3>
+              </div>
+            </div>
+            <div class="method-flow">
+              <span>Powder Sample</span><i>→</i>
+              <span>Moisture / RGB / Temp / RH</span><i>→</i>
+              <span>Arduino &amp; Serial Data</span><i>→</i>
+              <span>Threshold Evaluation</span><i>→</i>
+              <span>PASS / WARN / HOLD</span><i>→</i>
+              <span>Recommendations</span><i>→</i>
+              <span>Batch History &amp; Reports</span>
+            </div>
+          </article>
+
+          <article class="method-card">
+            <div class="method-head">
+              <span>03</span>
+              <div>
+                <p>Packaging Quality &amp; Leak Detection</p>
+                <h3>Two-stage visual inspection + mechanical testing</h3>
+              </div>
+            </div>
+            <div class="dual-method">
+              <div>
+                <strong>Visual Path</strong>
+                <p>Packet Image → Seal Localization → Seal Extraction → Overheat Defect Detection → Visual Result</p>
+              </div>
+              <div>
+                <strong>Physical Path</strong>
+                <p>Packet → Controlled Pressure → Load Cell + HX711 → Threshold Analysis → Normal / Abnormal Response</p>
+              </div>
+            </div>
+            <div class="combine-box">Visual Result + Physical Response → Combined Packaging Quality Assessment</div>
+          </article>
+
+          <article class="method-card">
+            <div class="method-head">
+              <span>04</span>
+              <div>
+                <p>Weather-Based Sales &amp; Quality Forecasting</p>
+                <h3>Historical data + weather + machine learning + explainability</h3>
+              </div>
+            </div>
+            <div class="method-flow">
+              <span>Historical Sales</span><i>+</i>
+              <span>Previous-Month Sales</span><i>+</i>
+              <span>Weather &amp; Seasonality</span><i>→</i>
+              <span>Feature Engineering</span><i>→</i>
+              <span>Random Forest Models</span><i>→</i>
+              <span>SHAP</span><i>→</i>
+              <span>12-Month Forecast &amp; Planning</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================
+         6. TECHNOLOGIES
+    ========================== -->
+    <section class="section section-light domain-section" id="technologies">
+      <div class="container">
+
+        <div class="domain-section-intro">
+          <span class="domain-index">06</span>
+          <div>
+            <p class="section-label">Technologies Used</p>
+            <h2 class="section-title">Hardware, AI, backend, data and application technologies</h2>
+          </div>
+        </div>
+
+        <div class="technology-category-grid">
+
+          <article class="technology-category">
+            <div class="technology-icon">AI</div>
+            <h3>AI &amp; Machine Learning</h3>
+            <div class="technology-pills">
+              <span>YOLOv8</span>
+              <span>YOLO11n</span>
+              <span>YOLO11m</span>
+              <span>Random Forest</span>
+              <span>Scikit-learn</span>
+              <span>SHAP</span>
+            </div>
+          </article>
+
+          <article class="technology-category">
+            <div class="technology-icon">HW</div>
+            <h3>Hardware &amp; Sensors</h3>
+            <div class="technology-pills">
+              <span>Arduino Uno</span>
+              <span>MQ Sensors</span>
+              <span>Moisture Sensor</span>
+              <span>DHT22</span>
+              <span>TCS3200</span>
+              <span>Load Cell</span>
+              <span>HX711</span>
+            </div>
+          </article>
+
+          <article class="technology-category">
+            <div class="technology-icon">BE</div>
+            <h3>Backend &amp; Data</h3>
+            <div class="technology-pills">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>PySerial</span>
+              <span>MongoDB</span>
+              <span>Motor</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+            </div>
+          </article>
+
+          <article class="technology-category">
+            <div class="technology-icon">UI</div>
+            <h3>Application &amp; Services</h3>
+            <div class="technology-pills">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>Vite</span>
+              <span>Axios</span>
+              <span>Open-Meteo API</span>
+              <span>Git / GitHub</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="domain-next">
+          <div>
+            <p class="section-label">Next Section</p>
+            <h3>Explore the project timeline and assessments.</h3>
+          </div>
+          <a class="btn btn-primary" href="milestones.html">View Milestones</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">SC</span>
+          <span class="brand-text">
+            <strong>Smart Coffee</strong>
+            <small>Manufacturing</small>
+          </span>
+        </a>
+
+        <p class="footer-description">
+          End-to-End Quality Control from Bean to Pack.
+        </p>
+        <p class="footer-meta">
+          Research Group R26-IT-027<br />
+          Sri Lanka Institute of Information Technology
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Research</h3>
+        <a href="domain.html">Domain</a>
+        <a href="milestones.html">Milestones</a>
+        <a href="documents.html">Documents</a>
+        <a href="presentations.html">Presentations</a>
+      </div>
+
+      <div class="footer-links">
+        <h3>Project</h3>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Smart Coffee Manufacturing Research Team. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
